@@ -1,0 +1,41 @@
+.section-detail{
+    min-height: calc(100vh - 105px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.section-detail h1{
+    color: #1D2D53;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-detail .fields{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.section-detail .fields .fields-part{
+    width: calc((100% / 3) - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #1D2D53;
+    border-radius: 10px;
+    color: #1D2D53;
+    padding: 25px 0;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s all;
+    font-size: 18px;
+    font-weight: 500;
+}
+.section-detail .fields .fields-part:hover{
+    background-color: #1D2D53;
+    color: white;
+}

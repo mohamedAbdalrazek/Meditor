@@ -1,0 +1,61 @@
+.teacher{
+    padding-top: 105px;
+    padding-bottom: 60px;
+    background-color: #f1f1f1;
+}
+.teacher > h3{
+    text-align: center;
+    font-size: 42px;
+    color: #1d2d53;
+    margin-bottom: 30px;
+}
+.teacher .teacher-container{
+    width:100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.teacher .teacher-container >div{
+    width: 40%;
+}
+.teacher .teacher-container .right{
+    width: 35%;
+}
+.teacher .teacher-container .right img{
+    width: 100%;
+}
+.teacher .teacher-container .left{
+    text-align: right;
+}
+.teacher .teacher-container .left p{
+    margin-bottom: 25px;
+    line-height: 1.8;
+
+}
+.teacher .teacher-container .left h3{
+    color: #1d2d53;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.teacher .teacher-container .left a{
+    margin-left: auto;
+    background-color: transparent;
+    border: 1px solid #1d2d53;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1d2d53;
+    text-decoration: none;
+}
+.teacher .teacher-container .left a:hover{
+    background-color: #1d2d53;
+    color: white;
+}

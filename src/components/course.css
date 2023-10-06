@@ -1,0 +1,99 @@
+.parent{
+    width: 100%;
+}
+.course-page{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.course-page h1{
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.course-page h1::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background-color: #1D2D53;
+    bottom: -10px;
+    left: 50%;
+    border-radius: 3px;
+    transform: translateX(-50%);
+}
+.course-page h3{
+    color: #1D2D53;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+.teachers-header{
+    text-align: center;
+    font-size: 25px !important;
+    margin-bottom: 20px !important;
+}
+.course-page > div > p{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.teachers .teacher{
+    width: calc(50% - 20px);
+    padding: 20px;
+    border: 1px solid #1D2D53;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.teachers .teacher .teacher-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.teachers .teacher .teacher-profile img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.teachers .teacher .teacher-profile p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1D2D53;
+}
+.teachers .teacher .intro-video{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.teachers .teacher > p{
+    text-align: center;
+    font-size: 18px;
+}
+.teachers .teacher button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #1D2D53;
+    padding: 20px 50px;
+    font-size: 18px;
+    color: #1D2D53;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .3s all;
+}
+.teachers .teacher button:hover{
+    background-color: #1D2D53;
+    color: white;
+}
