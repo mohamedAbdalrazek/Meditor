@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import video from "../../videos/background.mp4";
 import "./landing.css"
 function Landing(props){

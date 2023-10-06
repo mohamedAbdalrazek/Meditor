@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./teacher.css";
 import photo from "../../images/teacher.png";
 function Teacher(props) {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./main-sections.css";
 import Section from "./Section";
 function MainSections(props) {

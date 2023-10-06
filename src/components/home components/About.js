@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./about.css";
 import about from "../../images/about.png";
 function About(props) {

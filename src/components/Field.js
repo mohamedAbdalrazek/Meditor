@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./field.css";
 // import classNames from 'classnames';
 import Course from "./Course.js";

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import logo from "../../images/word right small.png"
 import "./nav.css"
 function Nav(props){

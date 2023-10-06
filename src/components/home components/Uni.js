@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./uni.css"
 function Uni(props) {
     function importAll(r) {

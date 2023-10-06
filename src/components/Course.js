@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./course.css";
 import StudentForm from "./StudentForm";
 function Course(props) {

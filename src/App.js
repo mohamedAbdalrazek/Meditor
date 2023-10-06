@@ -8,7 +8,7 @@ import Teacher from "./components/home components/Teacher";
 import Contact from "./components/home components/Contact";
 import "../node_modules/video-react/dist/video-react.css";
 import mainData from "./meditorData";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function App() {
     const data = mainData.mainData;
