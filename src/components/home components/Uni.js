@@ -11,7 +11,7 @@ function Uni(props) {
     const imgs = images.map((img)=>{
         return(
             <div className="uni-logo">
-                <img  src={img} alt="a7a" />
+                <img  src={img} alt="university-logo" />
             </div>
         )
     })

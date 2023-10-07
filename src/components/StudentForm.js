@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function StudentForm(props) {
     const data = props.data;
-    const teacher = props.teacher;
+    // const teacher = props.teacher;
     const [showConfirmation, setShowConfirmatin] = useState(0);
     const form = useRef();
     const notify = () =>
@@ -106,7 +106,7 @@ function StudentForm(props) {
                 </div>
                 <h3>فورم التقديم</h3>
                 <form className="customer" onSubmit={handleSubmit} ref={form}>
-                    <input type="hidden" name="teacher" value={teacher} />
+                    {/* <input type="hidden" name="teacher" value={teacher} /> */}
                     <input
                         type="hidden"
                         name="subject"
@@ -199,10 +199,10 @@ function StudentForm(props) {
                             <p>{data.courseName} </p>
                             <p>: مادة </p>
                         </div>
-                        <div>
+                        {/* <div>
                             <p>{teacher} </p>
                             <p>: مع الأستاذ </p>
-                        </div>
+                        </div> */}
                         <div>
                             <p>{data.coursePrize} ليرة تركية </p>
                             <p> : سعر الكورس </p>

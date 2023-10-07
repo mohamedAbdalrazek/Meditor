@@ -17,6 +17,7 @@
     height: 100vh;
     position: absolute;
     object-fit: cover;
+    min-width: 100%;
     
 }
 .landing .overlay{

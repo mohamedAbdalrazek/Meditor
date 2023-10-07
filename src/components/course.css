@@ -80,7 +80,7 @@
     text-align: center;
     font-size: 18px;
 }
-.teachers .teacher button{
+.course-page button{
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -93,7 +93,7 @@
     border-radius: 8px;
     transition: .3s all;
 }
-.teachers .teacher button:hover{
+.course-page button:hover{
     background-color: #1D2D53;
     color: white;
 }
