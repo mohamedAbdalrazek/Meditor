@@ -36,7 +36,7 @@ function Field(props) {
                     {!props.check?<div className="back" onClick={props.back}>
                         &lt;
                     </div>:undefined}
-                    {!props.check?<h1>{data.name}</h1>:<h1>بعض المواد التي ندرسها</h1>}
+                    {!props.check?<h1>{data.name}</h1>:<h1 className="cond-header">بعض المواد التي ندرسها</h1>}
                     <div className="courses">{courses}</div>
                 </div>
             ) : (

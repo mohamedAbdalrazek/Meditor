@@ -1,17 +1,17 @@
-.about{
+.about {
     padding-top: 105px;
     padding-bottom: 60px;
     background-color: #f1f1f1;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
-.about > h3{
+.about > h3 {
     text-align: center;
     font-size: 42px;
     color: #1d2d53;
     margin-bottom: 30px;
 }
-.about .about-container{
-    width:100%;
+.about .about-container {
+    width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
@@ -19,29 +19,102 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.about .about-container .left{
+.about .about-container .left {
     width: 35%;
 }
-.about .about-container img{
+.about .about-container img {
     width: 100%;
-    
 }
-.about .about-container .right{
+.about .about-container .right {
     width: 40%;
     text-align: right;
 }
-.about .about-container .right h3{
+.about .about-container .right h3 {
     color: #1d2d53;
     font-size: 22px;
 }
-.about .about-container .right h3:last-of-type{
+.about .about-container .right h3:last-of-type {
     margin-top: 15px;
 }
-.about .about-container .right h3+p{
+.about .about-container .right h3 + p {
     margin-top: 10px;
 }
-.about .about-container .right p{
+.about .about-container .right p {
     padding-right: 20px;
     margin-bottom: 5px;
     line-height: 1.8;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .about > h3 {
+        font-size: 36px;
+    }
+    .about .about-container {
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .about .about-container .right {
+        width: 100%;
+        text-align: center;
+    }
+    .about .about-container .right h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .about .about-container .right p {
+        font-size: 14px;
+    }
+    .about .about-container .right h3 + p {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .about .about-container .left{
+        width: 80% !important;
+        margin-bottom: 30px;
+
+        margin-top: 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .about .about-container {
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .about .about-container .right {
+        width: 100%;
+        text-align: center;
+    }
+    .about .about-container .right h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .about .about-container .right p {
+        font-size: 16px;
+    }
+    .about .about-container .right h3 + p {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .about .about-container .left{
+        width: 65% !important;
+        margin-bottom: 20px;
+
+        margin-top: 0;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about .about-container .left{
+        width: 40% !important;
+        
+    }
+    .about .about-container .right{
+        width: 45%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) {
 }

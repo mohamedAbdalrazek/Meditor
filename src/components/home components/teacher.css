@@ -59,3 +59,62 @@
     background-color: #1d2d53;
     color: white;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .teacher > h3{
+        font-size: 36px;
+    }
+    .teacher .teacher-container{
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .teacher .teacher-container >div{
+        width: 90% ;
+    }
+    .teacher .teacher-container .right{
+        width: 80% ;
+        margin-bottom: 30px;
+    }
+    .teacher .teacher-container .left p{
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .teacher .teacher-container .left a{
+        padding: 10px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .teacher > h3{
+        font-size: 36px;
+    }
+    .teacher .teacher-container{
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .teacher .teacher-container >div{
+        width: 90% ;
+    }
+    .teacher .teacher-container .right{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .teacher .teacher-container .left p{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .teacher .teacher-container .left a{
+        padding: 10px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) {
+}

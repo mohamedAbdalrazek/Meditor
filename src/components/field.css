@@ -25,6 +25,9 @@
     margin-bottom: 20px;
     color: #1D2D53;
 }
+.field .cond-header{
+    margin-top: 40px;
+}
 .field .back{
     z-index: 5;
     /* top: 75px; */

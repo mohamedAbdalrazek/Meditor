@@ -16,8 +16,8 @@
 }
 .uni-logo img{
     width: 100%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
     display: block;
 }
 .uni .imgs-container{
@@ -28,4 +28,65 @@
     flex-wrap: wrap;
     justify-content: center;
 
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .uni h3{
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .uni-logo{
+        width: 50px;
+    }
+    .uni-logo img{
+
+        margin-bottom: 20px;
+        display: block;
+    }
+    .uni .imgs-container{
+        padding: 0 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .uni h3{
+        font-size: 22px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .uni-logo{
+        width: 60px;
+    }
+    .uni-logo img{
+
+        margin-bottom: 20px;
+        display: block;
+    }
+    .uni .imgs-container{
+        padding: 0 20px;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .uni h3{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .uni-logo{
+        width: 80px;
+    }
+    .uni-logo img{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .uni .imgs-container{
+        padding: 0 20px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1201px){
+    
 }

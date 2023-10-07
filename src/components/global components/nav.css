@@ -18,6 +18,11 @@
     height: 45px;
     cursor: pointer;
 }
+.navbar .icon {
+    display: none;
+    cursor: pointer;
+    font-size: 22px;
+}
 .navbar ul {
     list-style: none;
 
@@ -34,7 +39,6 @@
     display: flex;
     align-items: center;
     color: #1d2d53;
-
 }
 .navbar li:not(:first-child):after {
     position: absolute;
@@ -43,7 +47,6 @@
     width: 2px;
     left: 0px;
     background-color: #ccc;
-
 }
 .navbar li:hover {
     /* border-bottom: 2px solid #ccc; */
@@ -60,9 +63,101 @@
     transition: 0.3s all;
     font-size: 16px;
     color: #1d2d53;
-
 }
 .navbar button:hover {
     background-color: #1d2d53;
     color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar .logo{
+        height: 35px;
+    }
+    .navbar .icon {
+        display: block;
+    }
+    .navbar ul {
+        flex-direction: column-reverse;
+        position: absolute;
+        right: 5px;
+        top: 80px;
+        background-color: white;
+        padding: 20px;
+        padding-top: 5px;
+    }
+    .navbar li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .navbar li:hover {
+        font-size: 16px;
+    }
+    .navbar li:not(:first-child):after {
+        width: 174px;
+        height: 2px;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar li:not(:first-child):before {
+        content: ">";
+        position: absolute;
+        left: -8px;
+    }
+    .navbar button {
+        margin-top: 10px;
+    }
+    .hidden {
+        display: none !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar .icon {
+        display: block;
+        margin-right: 10px;
+    }
+    .navbar ul {
+        flex-direction: column-reverse;
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        background-color: white;
+        padding: 30px;
+        padding-top: 5px;
+    }
+    .navbar li {
+        /* padding: 0; */
+        padding-bottom: 15px;
+        padding-top: 10px;
+        width: 150px;
+    }
+    .navbar li:hover {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .navbar li:not(:first-child):after {
+        width: 210px;
+        height: 2px;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar li:not(:first-child):before {
+        content: ">";
+        position: absolute;
+        left: -15px;
+    }
+    .navbar button {
+        margin-top: 10px;
+    }
+    .hidden {
+        display: none !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) {
 }

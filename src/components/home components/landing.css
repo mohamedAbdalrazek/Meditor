@@ -63,3 +63,52 @@
     background-color: white;
     color: #1d2d53;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .landing .landing-text h1{
+        font-size: 24px;
+    }
+    .landing .landing-text{
+        padding-top: 105px;
+    }
+    .landing .landing-text p{
+        font-size: 16px;
+        width: 90%;
+    }
+    .landing .landing-btn{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .landing .landing-text h1{
+        font-size: 34px;
+    }
+    .landing .landing-text p{
+        font-size: 18px;
+        width: 90%;
+    }
+    .landing .landing-btn{
+        padding: 12px 25px;
+        font-size: 22px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .landing .landing-text h1{
+        font-size: 38px;
+    }
+    .landing .landing-text p{
+        font-size: 20px;
+        width: 90%;
+    }
+    .landing .landing-btn{
+        padding: 15px 30px;
+        font-size: 24px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1201px){
+    
+}
