@@ -2,16 +2,16 @@ export default {
     mainData: [
         {
             sectionName: "Engineering Courses",
-            empty: false,
+            empty: true,
             fields: [
                 {
                     name: "Electrical And Electronics Engineering",
-                    sectionEmpty: false,
+                    sectionEmpty: true,
                     courses: [
                         {
                             courseName:
                                 "Introduction To Electrical And Electronics Engineering",
-                            courseEmpty: false,
+                            courseEmpty: true,
                             courseContnet:
                                 "Fundamentals of electricity. Representation of current, voltage, power, resistance, inductance, capacitance, Ohm's law. Electrical measurements-metres. DC and AC circuits.Magnetism.Transformers. Semiconductor devices: diodes, transistors, integrated circuits. Linear electronics circuits: power supplies, amplifiers, oscillators. Digital electronic circuits: basic logic gates, microcomputer basics, printed circuit board fabrication.",
                             coursePeriod: 8,

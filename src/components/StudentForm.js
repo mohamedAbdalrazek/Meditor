@@ -86,7 +86,7 @@ function StudentForm(props) {
                     (result) => {
                         form.current.reset();
                         notify();
-                        resetForm()
+                        resetForm();
                         setTimeout(() => window.location.reload(false), 5000);
                     },
                     (error) => {
@@ -195,9 +195,18 @@ function StudentForm(props) {
                         <label htmlFor="fac">: كود وكيلنا </label>
                     </div>
                     <div className="customer-conclusion">
-                        <p>{data.courseName} : مادة </p>
-                        <p>{teacher} : مع الأستاذ</p>
-                        <p>سعر الكورس : {data.coursePrize} ليرة تركية</p>
+                        <div>
+                            <p>{data.courseName} </p>
+                            <p>: مادة </p>
+                        </div>
+                        <div>
+                            <p>{teacher} </p>
+                            <p>: مع الأستاذ </p>
+                        </div>
+                        <div>
+                            <p>{data.coursePrize} ليرة تركية </p>
+                            <p> : سعر الكورس </p>
+                        </div>
                     </div>
                     {showConfirmation === 2 ? (
                         <p className="error-message">

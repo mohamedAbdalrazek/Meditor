@@ -56,3 +56,48 @@
     cursor: pointer;
     color: #1D2D53;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .main-sections{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-sections .section{
+        width: 95%;
+        margin: 0;
+        margin-top: 30px;
+        
+    }
+    .main-sections .section:last-of-type{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .main-sections{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-sections .section{
+        width: 60%;
+        margin: 0;
+        margin-top: 30px;
+        
+    }
+    .main-sections .section:last-of-type{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-sections .section{
+        width: 40%;
+        
+    }
+    
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1201px){
+    
+}

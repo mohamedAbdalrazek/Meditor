@@ -73,6 +73,104 @@
     flex-direction: column;
     align-items: end !important;
 }
+.customer-conclusion div{
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+
+}
 .error-message{
     color: red;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .student-form{
+        padding-left: 20px;
+    padding-right: 20px;
+
+    }
+    .student-form h3{
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    .student-form input{
+        width: 85%;
+    }
+    .customer-conclusion p{
+        font-size: 16px;
+    }
+    .customer-conclusion div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .customer-conclusion div p:first-of-type{
+        width: 55%;
+    }
+    .customer-conclusion div p:last-of-type{
+        width: 45%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .student-form{
+        padding-left: 20px;
+    padding-right: 20px;
+
+    }
+    .student-form h3{
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .student-form input{
+        width: 85%;
+    }
+    .customer-conclusion p{
+        font-size: 16px;
+    }
+    .customer-conclusion div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .customer-conclusion div p:first-of-type{
+        width: 75%;
+    }
+    .customer-conclusion div p:last-of-type{
+        width: 25%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .customer-conclusion div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .customer-conclusion div p:first-of-type{
+        width: 75%;
+    }
+    .customer-conclusion div p:last-of-type{
+        width: 15%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .customer-conclusion div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .customer-conclusion div p:first-of-type{
+        width: 75%;
+    }
+    .customer-conclusion div p:last-of-type{
+        width: 12%;
+    }
+}
+@media (min-width: 1201px) {
+    .customer-conclusion div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .customer-conclusion div p:first-of-type{
+        width: 75%;
+    }
+    .customer-conclusion div p:last-of-type{
+        width: 9%;
+    }
 }

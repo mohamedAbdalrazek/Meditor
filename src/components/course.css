@@ -97,3 +97,93 @@
     background-color: #1D2D53;
     color: white;
 }
+.teachers .teacher{
+    background-color: transparent;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .course-page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .course-page h1{
+        font-size: 22px;
+    }
+    .course-page > div > p{
+        padding: 0;
+        font-size: 16px;
+        max-width: 100%;
+        display: flex;
+        padding-left: 20px;
+    }
+    .teachers{
+        flex-direction: column;
+    }
+    .teachers .teacher{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .teachers .teacher .teacher-profile{
+        flex-direction: column;
+    }
+    .teachers .teacher .teacher-profile img{
+        margin-bottom: 10px;
+    }
+    .teachers .teacher .intro-video{
+        width: 100%;
+    }
+    .teachers .teacher button{
+        padding: 10px 25px;
+    }
+    .teachers-header{
+        margin-top: 40px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .course-page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .course-page h1{
+        font-size: 24px;
+    }
+    .course-page > div > p{
+        padding: 0;
+        font-size: 16px;
+        max-width: 100%;
+        display: flex;
+        padding-left: 20px;
+    }
+    .teachers{
+        flex-direction: column;
+    }
+    .teachers .teacher{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .teachers .teacher .teacher-profile{
+        flex-direction: column;
+    }
+    .teachers .teacher .teacher-profile img{
+        margin-bottom: 10px;
+    }
+    .teachers .teacher .intro-video{
+        width: 70%;
+    }
+    .teachers .teacher button{
+        padding: 10px 25px;
+    }
+    .teachers-header{
+        margin-top: 40px;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) {
+}

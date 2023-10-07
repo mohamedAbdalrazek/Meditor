@@ -1,15 +1,15 @@
-.field{
+.field {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column ;
+    flex-direction: column;
 }
-.temp-section .field{
+.temp-section .field {
     padding-top: 105px;
 
-    min-height:calc(100vh - 105px);
+    min-height: calc(100vh - 105px);
 }
-.field .courses{
+.field .courses {
     padding-right: 40px;
     padding-left: 40px;
     margin-bottom: 40px;
@@ -20,42 +20,42 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
-.field h1{
+.field h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #1D2D53;
+    color: #1d2d53;
 }
-.field .cond-header{
+.field .cond-header {
     margin-top: 40px;
 }
-.field .back{
+.field .back {
     z-index: 5;
     /* top: 75px; */
 }
-.field .courses .course{
+.field .courses .course {
     width: calc((100% / 3) - 20px);
     margin-bottom: 20px;
     text-align: center;
-    border: 1px solid #1D2D53;
+    border: 1px solid #1d2d53;
     border-radius: 10px;
-    color: #1D2D53;
+    color: #1d2d53;
     padding: 25px 0;
     margin-right: 20px;
     cursor: pointer;
-    transition: .3s all;
+    transition: 0.3s all;
     font-size: 18px;
     font-weight: 500;
 }
-.field .courses .course:hover{
-    background-color: #1D2D53;
+.field .courses .course:hover {
+    background-color: #1d2d53;
     color: white;
 }
-.field .courses .empty-course{
-    opacity: .7;
-    cursor:default;
+.field .courses .empty-course {
+    opacity: 0.7;
+    cursor: default;
     position: relative;
 }
-.field .courses .empty-course::after{
+.field .courses .empty-course::after {
     content: "soon..";
     background-color: red;
     color: white;
@@ -66,7 +66,71 @@
     border-radius: 10px;
     right: 5px;
 }
-.field .courses .empty-course:hover{
+.field .courses .empty-course:hover {
     background-color: transparent;
-    color: #1D2D53;
+    color: #1d2d53;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .field h1{
+        font-size: 26px;
+        width: 90%;
+        margin: auto ;
+        margin-bottom: 20px;
+    }
+    .field {
+        margin-top: 40px;
+    }
+    .field .courses{
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .field .courses .course{
+        width: 100%;
+        padding: 25px 5px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .field h1{
+        font-size: 32px;
+        width: 90%;
+        margin: auto ;
+        margin-bottom: 20px;
+    }
+    .field {
+        margin-top: 40px;
+    }
+    .field .courses{
+        flex-direction: column;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .field .courses .course{
+        width: 100%;
+        padding: 25px 5px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .field h1{
+        font-size: 32px;
+        width: 90%;
+        margin: auto ;
+        margin-bottom: 20px;
+    }
+    .field {
+        margin-top: 40px;
+    }
+    .field .courses{
+        flex-direction: row;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .field .courses .course{
+        width: calc(50% - 20px);
+        padding: 25px 5px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 1201px) {
 }
