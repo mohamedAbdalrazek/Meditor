@@ -22,10 +22,10 @@
     display: block;
     width: 100px;
 }
-.student-form form div:not(:nth-child(9)) label{
+.student-form form div:not(:nth-child(10)) label{
     position: relative;
 }
-.student-form form div:not(:nth-child(9)) label::after{
+.student-form form div:not(:nth-child(10)) label::after{
     content: "*";
     color: red;
     position: absolute;

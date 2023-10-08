@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 function StudentForm(props) {
     const data = props.data;
     // const teacher = props.teacher;
+    const agencyName = localStorage.getItem("agencyName");
     const [showConfirmation, setShowConfirmatin] = useState(0);
     const form = useRef();
     const notify = () =>
@@ -109,6 +110,11 @@ function StudentForm(props) {
                     {/* <input type="hidden" name="teacher" value={teacher} /> */}
                     <input
                         type="hidden"
+                        name="agency"
+                        value={agencyName}
+                    />
+                    <input
+                        type="hidden"
                         name="subject"
                         value={data.courseName}
                     />
@@ -182,17 +188,6 @@ function StudentForm(props) {
                             value={formData.fac}
                         />
                         <label htmlFor="fac">: الكلية </label>
-                    </div>
-                    <div className="customer-code">
-                        <input
-                            type="text"
-                            placeholder="الكود"
-                            id="code"
-                            name="code"
-                            onChange={handleChange}
-                            value={formData.code}
-                        />
-                        <label htmlFor="fac">: كود وكيلنا </label>
                     </div>
                     <div className="customer-conclusion">
                         <div>
