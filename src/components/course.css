@@ -6,6 +6,7 @@
     padding-left: 40px;
     padding-top: 150px;
     padding-bottom: 40px;
+    text-align: right;
 }
 .course-page h1{
     position: relative;
@@ -36,7 +37,7 @@
 }
 .course-page > div > p{
     margin-bottom: 20px;
-    padding-left: 30px;
+    padding-right: 30px;
     font-size: 17px;
 }
 
@@ -97,6 +98,21 @@
     background-color: #1D2D53;
     color: white;
 }
+.prize-canceled{
+    position: relative;
+}
+.prize-canceled::after{
+    content: "";
+    position: absolute;
+    width: 110%;
+    display: block;
+    height: 2px;
+    background-color: rgb(158, 22, 22);
+    left: -9.5%;
+    top: 45%;
+    transform: rotate(-17deg) translateY(-50%);
+
+}
 .teachers .teacher{
     background-color: transparent;
 }
@@ -151,10 +167,11 @@
     }
     .course-page > div > p{
         padding: 0;
-        font-size: 16px;
-        max-width: 100%;
-        display: flex;
-        padding-left: 20px;
+        /* font-size: 16px;
+        max-width: 100%; */
+        /* display: flex;
+        justify-content: end; */
+        padding-right: 20px;
     }
     .teachers{
         flex-direction: column;

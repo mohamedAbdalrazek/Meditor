@@ -16,6 +16,7 @@ export default {
                                 "Fundamentals of electricity. Representation of current, voltage, power, resistance, inductance, capacitance, Ohm's law. Electrical measurements-metres. DC and AC circuits.Magnetism.Transformers. Semiconductor devices: diodes, transistors, integrated circuits. Linear electronics circuits: power supplies, amplifiers, oscillators. Digital electronic circuits: basic logic gates, microcomputer basics, printed circuit board fabrication.",
                             coursePeriod: 8,
                             courseSession: 24,
+                            discount:.5,
                             teachersNumber: 3,
                             coursePrize: 1800,
                             uni: "ankara university, gazi university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, ankara yıldırım beyazıt üniversitesi, gaziantep üniversitesi, izmir katip çelebi üniversitesi, mugla university, karabuk university, adana science and technology university, alanya alaaddin keykubat üniversitesi, bilgi university, istanbul aydın üniversitesi, atilim university, altin basha university istanbul, ankara bilim üniversitesi, topkapi university, kadir has üniversitesi, gelisim university, yeditepe university, ozyegin university, ostim teknik üniversitesi, okan üniversitesi",
@@ -87,6 +88,7 @@ export default {
                         {
                             courseName: "Calculus-I",
                             courseEmpty: false,
+                            discount:.5,
                             courseContnet:
                                 "Real numbers, inequalities, algebra of sets, functions, graphs, limits., continuity, the derivative, maxima-minima and other applications, the differential, the definite integral, mean-value theorem, the indefinite integral, the antiderivative, the fundamental theorem of calculus, techniques of integration, inverse functions.",
                             coursePeriod: 8,
@@ -128,6 +130,7 @@ export default {
                             coursePeriod: 8,
                             courseSession: 24,
                             teachersNumber: 1,
+                            discount:.5,
                             coursePrize: 2200,
                             uni: "middle east technical university, ankara university, gazi university, marmara university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, gaziantep üniversitesi, izmir katip çelebi üniversitesi, abdullah gül university, mugla university, eskişehir, teknik üniversitesi, karabuk university, alanya alaaddin keykubat üniversitesi, istinye university, bilgi university, istanbul aydın üniversitesi, istanbul arel üniversitesi, halic university, atilim university, topkapi university, atlas university, gelisim university, ankara medipol, yeditepe university, sabancı üniversitesi, uskudar university, ostim teknik üniversitesi",
                             teachers: [
@@ -365,6 +368,7 @@ export default {
                             coursePeriod: 8,
                             courseSession: 24,
                             teachersNumber: 1,
+                            discount:.5,
                             coursePrize: 1800,
                             uni: "hacettepe university, middle east technical university, ankara university, gazi university, marmara university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, ankara yıldırım beyazıt üniversitesi, gaziantep üniversitesi, izmir katip çelebi üniversitesi, abdullah gül university, mugla university , eskişehir teknik üniversitesi, karabuk university, adana science and technology university, alanya alaaddin keykubat üniversitesi, istinye university, kultur university, bilgi university, istanbul aydın üniversitesi,isik university, halic university , atilim university, altin basha, university istanbul, ankara bilim üniversitesi, topkapi university, gelisim university, ankara medipol, beykent university, uskudar university, ostim teknik üniversitesi, okan üniversitesi",
 
@@ -545,6 +549,7 @@ export default {
                                 "Fluid Statics, Basic Flow Equations, Flow in Closed Conduits, Similarity, Hydraulic Machinery.",
                             coursePeriod: 8,
                             courseSession: 24,
+                            discount:.5,
                             teachersNumber: 1,
                             coursePrize: 2200,
                             uni: "middle east technical university, ankara university, gazi university, marmara university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, gaziantep üniversitesi, izmir katip çelebi üniversitesi, abdullah gül university, mugla university, eskişehir, teknik üniversitesi, karabuk university, alanya alaaddin keykubat üniversitesi, istinye university, bilgi university, istanbul aydın üniversitesi, istanbul arel üniversitesi, halic university, atilim university, topkapi university, atlas university, gelisim university, ankara medipol, yeditepe university, sabancı üniversitesi, uskudar university, ostim teknik üniversitesi",
@@ -635,7 +640,7 @@ export default {
                             courseSession: 24,
                             teachersNumber: 1,
                             uni: "hacettepe university, middle east technical university, ankara university, gazi university, marmara university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, ankara yıldırım beyazıt üniversitesi, gaziantep üniversitesi, izmir katip çelebi üniversitesi, abdullah gül university, mugla university , eskişehir teknik üniversitesi, karabuk university, adana science and technology university, alanya alaaddin keykubat üniversitesi, istinye university, kultur university, bilgi university, istanbul aydın üniversitesi,isik university, halic university , atilim university, altin basha, university istanbul, ankara bilim üniversitesi, topkapi university, gelisim university, ankara medipol, beykent university, uskudar university, ostim teknik üniversitesi, okan üniversitesi",
-
+                            discount:.5,
                             coursePrize: 1800,
                             teachers: [
                                 {
@@ -653,6 +658,7 @@ export default {
                             coursePeriod: 8,
                             courseSession: 24,
                             teachersNumber: 1,
+                            discount:.5,
                             coursePrize: 2200,
                             uni: "middle east technical university, ankara university, gazi university, marmara university, dokuz eylül üniversitesi, cukurova university, karadeniz university, izmir university, eskişehir osmangazi university, gaziantep üniversitesi, izmir katip çelebi üniversitesi, abdullah gül university, mugla university, eskişehir, teknik üniversitesi, karabuk university, alanya alaaddin keykubat üniversitesi, istinye university, bilgi university, istanbul aydın üniversitesi, istanbul arel üniversitesi, halic university, atilim university, topkapi university, atlas university, gelisim university, ankara medipol, yeditepe university, sabancı üniversitesi, uskudar university, ostim teknik üniversitesi",
 

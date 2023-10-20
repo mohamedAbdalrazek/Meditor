@@ -37,11 +37,11 @@ function Course(props) {
                     </div>
                     <h1>{data.courseName}</h1>
                     <div>
-                        <h3>اللغة :</h3>
+                        <h3>اللغة </h3>
                         <p>المنهج باللغة الأنجليزية والشرح باللغة العربية</p>
                     </div>
                     <div>
-                        <h3>الجامعات التي توجد بها تلك المادة:</h3>
+                        <h3>الجامعات التي توجد بها تلك المادة</h3>
                         <p>{(data.uni).toLowerCase()}</p>
                     </div>
                     {/* <div>
@@ -49,23 +49,29 @@ function Course(props) {
                         <p>{data.coursePeriod} أسابيع</p>
                     </div> */}
                     <div>
-                        <h3>عدد المحاضرات:</h3>
-                        <p>{data.courseSession} محاضرة</p>
+                        <h3>فترة الكورس</h3>
+                        <p>الترم الأول 2023/2024</p>
                     </div>
                     <div>
-                        <h3>نظام المراجعات:</h3>
+                        <h3>نظام المراجعات</h3>
                         <p>مراجعة قبل كل امتحان</p>
                     </div>
                     <div>
-                        <h3>نظام الكورس:</h3>
+                        <h3>نظام الكورس</h3>
                         <p>100% أونلاين</p>
                     </div>
                     <div>
-                        <h3>سعر الكورس:</h3>
-                        <p>{data.coursePrize} ليرة تركية</p>
+                        <h3>سعر الكورس</h3>
+                        {data.discount?
+                        <p>
+                        <span className="prize-canceled"> {data.coursePrize} </span>  {data.coursePrize * parseFloat(data.discount)} tl 
+                        </p>
+                        :
+                        <p>{data.coursePrize} tl</p>
+                        }
                     </div>
                     <div>
-                        <h3>سياسة الإسترجاع:</h3>
+                        <h3>سياسة الإسترجاع</h3>
                         <p>متاح إسترجاع المال بعد اول محاضرة فقط</p>
                     </div>
                     <button onClick={handleClick}>سجل الآن</button>

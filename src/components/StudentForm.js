@@ -121,7 +121,7 @@ function StudentForm(props) {
                     <input
                         type="hidden"
                         name="price"
-                        value={data.coursePrize}
+                        value={data.discount?(parseFloat(data.discount)*data.coursePrize):data.coursePrize}
                     />
                     <div className="customer-name">
                         <input
@@ -199,7 +199,13 @@ function StudentForm(props) {
                             <p>: مع الأستاذ </p>
                         </div> */}
                         <div>
-                            <p>{data.coursePrize} ليرة تركية </p>
+                                {data.discount?
+                                <p>
+                                <span className="prize-canceled"> {data.coursePrize} </span>  {data.coursePrize * parseFloat(data.discount)} tl 
+                                </p>
+                                :
+                                <p>{data.coursePrize} tl</p>
+                                }
                             <p> : سعر الكورس </p>
                         </div>
                     </div>
